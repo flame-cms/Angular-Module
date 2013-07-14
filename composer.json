@@ -1,0 +1,25 @@
+{
+  "name": "flame-cms/angularjs-bundle",
+  "type": "nette-bundle",
+  "description": "Basic support of angularjs in Nette",
+  "keywords": ["angularjs bundle", "nette", "flame", "angularjs", "bundle", "cms"],
+  "homepage": "https://github.com/flame-cms/AngularJS-Bundle",
+  "license": "BSD-3",
+
+  "authors": [
+    {
+      "name": "Jiří Šifalda",
+      "homepage": "http://jsifalda.name/"
+    }
+  ],
+
+  "config": {
+    "vendor-dir": "libs"
+  },
+
+  "require": {
+    "nette/nette": "dev-master",
+    "flame/bundles": "dev-master",
+    "flame/bundle-installer": "dev-master"
+  }
+}
