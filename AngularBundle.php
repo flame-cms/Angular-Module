@@ -8,8 +8,9 @@
 namespace Flame\CMS\AngularBundle;
 
 use Flame\Bundles\IBundle;
+use Flame\Bundles\Bundle;
 
-class AngularBundle implements IBundle
+class AngularBundle extends Bundle
 {
 
 	/**
