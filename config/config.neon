@@ -1,7 +1,7 @@
 nette:
   application:
     mapping:
-      Flame\CMS: Flame\CMS\AngularBundle\*Module\Presenters\*Presenter
+      Flame\CMS\AngularBundle: Flame\CMS\AngularBundle\*Module\Presenters\*Presenter
   latte:
     macros:
       - Flame\CMS\AngularBundle\Templating\AngularMacros
