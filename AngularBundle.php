@@ -19,7 +19,7 @@ class AngularBundle extends Bundle
 	public function getConfigFiles()
 	{
 		return array(
-			$this->getCurrentPahth() . '/config/config.neon'
+			$this->getCurrentPath() . '/config/config.neon'
 		);
 	}
 }
