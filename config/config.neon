@@ -1,0 +1,14 @@
+nette:
+  application:
+    mapping:
+      Flame\CMS: Flame\CMS\AngularBundle\*Module\Presenters\*Presenter
+  latte:
+    macros:
+      - Flame\CMS\AngularBundle\Templating\AngularMacros
+
+services:
+  angularRouter: Flame\CMS\AngularBundle\Router\AngularRouter
+  routerFactory:
+    class: \Flame\Bundles\Router\RouterFactory
+    setup:
+      - register(@angularRouter)
