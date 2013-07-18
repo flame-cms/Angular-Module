@@ -5,7 +5,7 @@
  * @author: Jiří Šifalda <sifalda.jiri@gmail.com>
  * @date: 28.04.13
  */
-namespace Flame\CMS\AngularBundle\Templating;
+namespace Flame\CMS\AngularModule\Templating;
 
 use Nette\Latte\Compiler;
 use Nette\Latte\Macros\MacroSet;

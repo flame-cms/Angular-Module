@@ -5,7 +5,7 @@
  * @author: Jiří Šifalda <sifalda.jiri@gmail.com>
  * @date: 28.04.13
  */
-namespace Flame\CMS\AngularBundle\Router;
+namespace Flame\CMS\AngularModule\Router;
 
 use Flame\Bundles\Router\IRouter;
 use Nette\Application\Routers\Route;

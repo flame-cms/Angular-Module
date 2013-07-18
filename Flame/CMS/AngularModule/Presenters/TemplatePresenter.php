@@ -5,7 +5,7 @@
  * @author: Jiří Šifalda <sifalda.jiri@gmail.com>
  * @date: 28.04.13
  */
-namespace Flame\CMS\AngularBundle\Presenters;
+namespace Flame\CMS\AngularModule\Presenters;
 
 use Nette\Application\UI\Presenter;
 
