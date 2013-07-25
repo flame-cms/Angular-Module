@@ -1,0 +1,29 @@
+{
+  "name": "flame-cms/angular-installer",
+  "type": "nette-module",
+  "description": "Basic support of angularjs in Nette",
+  "keywords": ["nette", "angularjs", "module", "angular"],
+  "homepage": "https://github.com/flame-cms/Angular-Module",
+  "license": ["BSD-3", "GPLv2", "GPLv3"],
+  "authors": [
+    {
+      "name": "Jiří Šifalda",
+      "homepage": "http://jsifalda.name/"
+    }
+  ],
+  "require": {
+    "php": ">= 5.3.0",
+    "flame/module-installer": "@dev",
+    "flame/modules": "@dev",
+    "nette/nette": ">=2.0.8"
+  },
+  "autoload": {
+    "psr-0": { "Flame": "" }
+  },
+
+  "extra": {
+    "module": {
+      "class": "Flame\\CMS\\AngularModule\\DI\\AngularExtension"
+    }
+  }
+}
