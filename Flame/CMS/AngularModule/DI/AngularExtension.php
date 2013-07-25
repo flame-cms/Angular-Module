@@ -7,10 +7,10 @@
  */
 namespace Flame\CMS\AngularModule\DI;
 
-use Flame\Modules\Extension\ModuleExtension;
+use Flame\Modules\Extension\NamedExtension;
 use Flame\Modules\Providers\IConfigProvider;
 
-class AngularExtension extends ModuleExtension implements IConfigProvider
+class AngularExtension extends NamedExtension implements IConfigProvider
 {
 
 	/**
