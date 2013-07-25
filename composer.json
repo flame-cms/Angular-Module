@@ -1,5 +1,5 @@
 {
-  "name": "flame-cms/angular-installer",
+  "name": "flame-cms/angular-module",
   "type": "nette-module",
   "description": "Basic support of angularjs in Nette",
   "keywords": ["nette", "angularjs", "module", "angular"],
